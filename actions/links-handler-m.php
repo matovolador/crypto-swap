@@ -79,7 +79,6 @@ if ($_POST['action']=="submit-pin"){
 
 }
 if ($_POST['action'] == "update"){
-	return;
 	$link = $_POST['link'];	
 
 	$Links = new Links();
